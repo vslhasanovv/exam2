@@ -36,6 +36,5 @@ public class Main {
         acc.withdraw(500);
         System.out.println("Account balance is: " + acc.getBalance());
 
-
     }
 }
