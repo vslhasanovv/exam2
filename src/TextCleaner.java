@@ -50,7 +50,7 @@ public class TextCleaner {
 
         for (char c : s.toCharArray()) {
             if (c == ' ') {
-                if (!lastWasSpace) {  // yalnız 1 boşluq yaz
+                if (!lastWasSpace) {  
                     result += c;
                 }
                 lastWasSpace = true;
